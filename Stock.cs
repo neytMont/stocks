@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 
+
 namespace Stocks
 {
     public class Stock
@@ -12,7 +13,8 @@ namespace Stocks
         public int CurrentValue { get; set; }
         public int MaxChange { get; set; }
         public int Threshold { get; set; }
-        public int NumChanges { get; set; }
+        public int NumChanges { get; set; }
+
         public Stock(string name, int startingValue, int maxChange, int threshold)//constructor
         {
             StockName = name;
